@@ -12,12 +12,10 @@ class UserSerializer(serializers.ModelSerializer):
 
 class Products(serializers.ModelSerializer):
 
-    admin = UserSerializer()
 
     class Meta:
         model = Product
         fields = '__all__'
-        depth = 1
 
 
 class order(serializers.ModelSerializer):
