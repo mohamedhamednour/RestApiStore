@@ -9,10 +9,9 @@ def test_register_user():
     payload = dict(
         username= 'hamed',
         password= '01004228285P@ssw0rd',
-        email='mohamedhame2ed@gmail.com',
+        email='mohamed.hame2ed@gmail.com',
         first_name="mohamed",
         last_name='hamed',
-
 
     )
     responce = clinet.post('/auth/register/' , payload)
