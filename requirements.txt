@@ -165,7 +165,7 @@ pyxdg==0.26
 PyYAML==5.3.1
 qrcode==6.1
 reportlab==3.5.59
-requests==2.25.1
+requests==2.28.2
 requests-toolbelt==0.9.1
 requests-unixsocket==0.2.0
 rsa==4.8
