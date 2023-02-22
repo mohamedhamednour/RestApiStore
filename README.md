@@ -4,7 +4,11 @@ mapping data base
 ![Test Image 1](./imageProject/mappingDataBase.png)
 
 create apis 
+
+
 UsetAuth [sign up , sign in]
+
+
 eccomere   [Product , cart , order  ] models
 ![Test Image 2](./imageProject/web-screenshot-22-02-2023.jpg)
 
@@ -19,10 +23,20 @@ and test code by pytest
 
 requirements run django 
   
-pip install django-cors-headers,
-pip install Pillow,
-pip install djangorestframework,
-pip install -U pytest,
-pip install flake8,
+pip install django-cors-headers
+
+
+pip install Pillow
+
+pip install djangorestframework
+
+
+pip install -U pytest
+
+
+pip install flake8
+
 and 
+
+
 python manage.py runserver
