@@ -1,14 +1,20 @@
 # eccomere-api
 
 mapping data base
-![Test Image 3](./mappingDataBase.png)
+![Test Image 1](./imageProject/mappingDataBase.png)
 
 create apis 
 eccomere   [Product , cart , order  ] models
+![Test Image 2](./imageProject/web-screenshot-22-02-2023.jpg)
+
 and  convert database to Apis get and post 
 and create views to disply this data 
 
 i used MySql 
+
+and test code by pytest
+![Test Image 2](./imageProject/Screenshot%20from%202023-02-22%2023-41-18.png)
+
 
 requirements run django 
   

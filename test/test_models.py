@@ -31,11 +31,3 @@ class ProductModelTest(TestCase):
 
 
 
-# class AccountTests(APITestCase):
-#     def test_create_product(self):
-#         user = User.objects.create_user(id=2, username='hamednour', password='password')
-#         data = {'admin': user, 'name': 'Zara', 'price': 260.0}
-#         response = self.client.post(reverse('productss'), data, format='json')
-#         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
-#         self.assertEqual(Product.objects.count(), 1)
-#         self.assertEqual(Product.objects.get().name, 'Zara')
