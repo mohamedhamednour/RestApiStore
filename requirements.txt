@@ -4,7 +4,7 @@ altgraph==0.17.2
 asgiref==3.5.0
 asn1crypto==1.4.0
 asyncua==0.9.94
-Brlapi==0.8.3
+Brl-api==0.8.3
 catfish==4.16.3
 certifi==2020.6.20
 cffi==1.15.0
