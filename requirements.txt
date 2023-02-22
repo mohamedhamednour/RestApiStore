@@ -19,7 +19,6 @@ filelock==3.5.1
 fpdf==1.7.2
 html5lib==1.1
 idna==3.2
-lightdm-gtk-greeter-settings==1.2.2
 louis==3.19.0
 mechanize==0.4.7
 netifaces==0.11.0
