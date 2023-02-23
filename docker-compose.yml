@@ -23,3 +23,5 @@ services:
       - /tmp/app/mysqld:/run/mysqld
     depends_on:
       - db
+volumes:
+  db:

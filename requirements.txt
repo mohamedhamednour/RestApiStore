@@ -6,4 +6,3 @@ djangorestframework==3.13.1
 djangorestframework-simplejwt==5.2.0
 Django>=4.0.4
 shortuuid>=1.0.1
-gunicorn
