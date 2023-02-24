@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/media/mohamedhamednour/New Volume/ITI/Django/task-bit68/eccomere-api/env/bin/python" "$0" "$@"
+'''exec' "/media/mohamedhamednour/New Volume/ITI/Django/task-bit68/clonstore/RestApiStore/env/bin/python3.9" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
