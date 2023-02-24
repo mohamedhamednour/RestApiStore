@@ -1,7 +1,7 @@
 from django.urls import path,include
 from ProjectApp import views
 urlpatterns = [
-    path('product/', views.productss.as_view()),
+    path('product/', views.productss.as_view() , name='product'),
     path('orderby_price', views.orderby_price, name='orderby_price'),
     path('Order_item', views.Order_item.as_view(), name='Order_item'),
     path('cart_item', views.cart_item.as_view(), name='cart_item'),

@@ -20,6 +20,8 @@ class OrderItem(models.Model):
         return f"{self.id} - {self.cart}"
 
 
+
+
 class Cart(models.Model):
     order_user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE, null=True)

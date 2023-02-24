@@ -1,17 +1,17 @@
-version: '3.8'
+version: '3'
 services:
   db:
-    image: mysql:8
+    image: store_x:8
     ports:
-      - "3306:3306"
+      - "8000:8000"
     environment:
       - MYSQL_DATABASE='store'
       - MYSQL_USER='root'
       - MYSQL_PASSWORD=''
       - MYSQL_ROOT_PASSWORD=''
-      - MYSQL_HOST='localhost'
+      - MYSQL_HOST=''
     volumes:
-      - /tmp/app/mysql:/var/run/mysql
+      - /tmp/app/mysqld:/var/run/mysqld
       - ./db:/var/lib/mysql
   web:
     build: .
@@ -20,6 +20,8 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
-      - /tmp/app/mysql:/run/mysql
+      - /tmp/app/mysqld:/run/mysqld
     depends_on:
       - db
+volumes:
+  db:

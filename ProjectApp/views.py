@@ -17,13 +17,6 @@ class productss(generics.ListCreateAPIView):
     permission_classes = [DjangoModelPermissions]
 
 
-# all Product
-@api_view(['GET'])
-def allproduct(request):
-    queryset = Product.objects.all()
-    data = Products(queryset, many=True).data
-    return Response(data)
-
 
 # order
 class Order_item(generics.ListCreateAPIView):
@@ -75,4 +68,12 @@ def getusercart(request, id):
 def getuserorder(request, id):
     queryset = OrderItem.objects.filter(order_user=id)
     data = order(queryset, many=True).data
+    return Response(data)
+
+
+# all Product
+@api_view(['GET'])
+def allproduct(request):
+    queryset = Product.objects.all()
+    data = Products(queryset, many=True).data
     return Response(data)
